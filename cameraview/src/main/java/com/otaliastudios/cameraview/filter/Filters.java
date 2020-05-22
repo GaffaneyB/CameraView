@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 
 import com.otaliastudios.cameraview.filters.AutoFixFilter;
 import com.otaliastudios.cameraview.filters.BlackAndWhiteFilter;
+import com.otaliastudios.cameraview.filters.NegativeBlackWhiteFilter;
 import com.otaliastudios.cameraview.filters.BrightnessFilter;
 import com.otaliastudios.cameraview.filters.ContrastFilter;
 import com.otaliastudios.cameraview.filters.CrossProcessFilter;
@@ -40,6 +41,9 @@ public enum Filters {
 
     /** @see BlackAndWhiteFilter */
     BLACK_AND_WHITE(BlackAndWhiteFilter.class),
+
+    /** @see NegativeBlackWhiteFilter */
+    NEGATIVE_BLACK_WHITE(NegativeBlackWhiteFilter.class),
 
     /** @see BrightnessFilter */
     BRIGHTNESS(BrightnessFilter.class),
